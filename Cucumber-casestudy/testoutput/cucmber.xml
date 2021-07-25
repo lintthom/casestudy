@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.344">
+<testcase classname="To Validate New User registration for a Elearning App" name="New user registration" time="43.961">
+<system-out><![CDATA[Given user is in registration page..........................................passed
+And user enters firstname "Nisha3"..........................................passed
+And user enters lastname "Menon"............................................passed
+And user enters e-mail id "nishamenon4@hotmail.com".........................passed
+And user enters username "nishamenon3"......................................passed
+And user enters password "nishamenon3123"...................................passed
+And user confirms the password "nishamenon3123".............................passed
+When user clicks on register button.........................................passed
+Then user sees the confirmation message "Nisha3 Menon"......................passed
+And user navigates to HomePage..............................................passed
+Then user click on compose..................................................passed
+And user enters recipient email "rvasudevan"................................passed
+And user enters subject "Test Email1".......................................passed
+And user enters enters message..............................................passed
+When user clicks on send message button.....................................passed
+Then user sees success message "The message has been sent to"...............passed
+When user tries to logout...................................................passed
+Then user is logged out.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
